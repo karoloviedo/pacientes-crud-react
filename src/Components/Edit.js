@@ -43,9 +43,9 @@ class Edit extends React.Component {
 
     componentDidMount(){
         // console.log(this.match.params.id);
-        const id = this.props.params.id;
-        console.log("id:",id);
-        console.log(this.routeParams);
+        // const id = this.props.params.id;
+        // console.log("id:",id);
+        // console.log(this.routeParams);
         fetch(Api+'?consultar=')
         .then(respuesta=>respuesta.json())
         .then((datosRespuesta)=>{
