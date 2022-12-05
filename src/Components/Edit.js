@@ -46,6 +46,8 @@ class Edit extends React.Component {
         // const id = this.props.params.id;
         // console.log("id:",id);
         // console.log(this.routeParams);
+        //aqui consume los datos para editar 
+        // fetch(Api+'?consultar='+this.match.params.id)
         fetch(Api+'?consultar=')
         .then(respuesta=>respuesta.json())
         .then((datosRespuesta)=>{
